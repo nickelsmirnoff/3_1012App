@@ -54,10 +54,11 @@ class MainActivity : AppCompatActivity() {
                 Log.d("PIPI","cam pic taken. work with it")
 
                 val IntentCamShoot = Intent(this, CamShootActivity::class.java)
-                IntentCamShoot.putExtra("YourName", editTextName.text)
+                IntentCamShoot.putExtra("YourName", editTextName.text.toString())
                 val PicUri:Uri = data.getData()
+                Log.d("PIPI",PicUri.toString())
                 //val Pic : Bitmap = data.extras.get("data") as Bitmap
-                IntentCamShoot.putExtra("PictureUri", PicUri)
+                IntentCamShoot.putExtra("PicUri", PicUri)
                 startActivity(IntentCamShoot)
 
 
