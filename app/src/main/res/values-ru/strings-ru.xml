@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3_1012App</string>
+    <string name="textview_hint">Введи свое имя!</string>
+    <string name="shoot_button">Сделать фото</string>
+    <string name="error_msg">Сначала введи имя, солдат!</string>
+</resources>

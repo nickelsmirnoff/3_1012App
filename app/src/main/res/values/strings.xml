@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">3_1012App</string>
+    <string name="textview_hint">Type your name!</string>
+    <string name="shoot_button">Take picture</string>
+    <string name="error_msg">You didn\'t type you name, buddy!</string>
+    <string name="title_activity_cam_shoot">CamShootActivity</string>
+</resources>
